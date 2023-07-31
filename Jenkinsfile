@@ -15,6 +15,7 @@
 	
 	   stage("compile"){
 	    steps{
+		    echo "test"
 		 sh 'mvn compile'
 		}
 		}

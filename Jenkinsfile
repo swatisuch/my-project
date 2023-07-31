@@ -28,6 +28,11 @@
 		 sh 'mvn package'
 		}
 		}
+		stage("deploy"){
+	    steps{
+		 echo "please deploy my application"
+		}
+		}
 		
 	  }
 	}
